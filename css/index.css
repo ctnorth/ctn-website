@@ -61,12 +61,6 @@ nav
     color: rgb(10, 145, 104);
 }
 
-@font-face 
-{
-    font-family: "Fira Sans";
-    src: url('../fonts/FiraSans-Regular.ttf') format('truetype'), url('../fonts/FiraSans-Regular.eot'), url('../fonts/FiraSans.svg') format('svg'), url('../fonts/FiraSans.woff') format('woff');
-}
-
 #jumbotron h1 
 {
     font-family: "Fira Sans";
@@ -89,6 +83,15 @@ nav
     color: white;
 }
 
+.jumpdown-btn 
+{
+    text-decoration: none;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    display: block;
+}
+
 section 
 {
     margin-top: 20%;
@@ -96,4 +99,14 @@ section
     padding: 1%;
     width: 98%;
     display: block;
+}
+
+p 
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    color: white;
+    font-family: "Fira Sans";
+    font-weight: lighter;
 }
