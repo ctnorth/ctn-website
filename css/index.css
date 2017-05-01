@@ -21,16 +21,24 @@ nav
 
 .navbtn-nodropdown 
 {
+    vertical-align: middle;
     text-align: center;
     color: white;
     text-decoration: none;
     font-family: "Fira Sans";
-    width: 10%;
+    width: 5%;
     padding: 1%;
     display: inline-block;
     transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
+}
+
+#navbtn-img
+{
+    vertical-align: middle;
+    max-width: 5%;
+    width: 5%;
 }
 
 #jumbotron-img 
@@ -62,7 +70,13 @@ nav
     color: white;
 }
 
-#jumbotron h2 
+#homebtn 
+{
+    width: 5%;
+    margin-right: 60%;
+}
+
+#jumbotron h2
 {
     font-family: "Fira Sans";
     font-size: 200%;
