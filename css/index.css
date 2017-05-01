@@ -8,15 +8,14 @@
 body 
 {
     margin: 0;
-   background-image: url('../images/bckgrnd.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
+    background-image: url('../images/bckgrnd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav 
 {
     background-color: rgb(10, 145, 104);
-    padding: 1%;
 }
 
 .navbtn-nodropdown 
@@ -28,6 +27,7 @@ nav
     font-family: "Fira Sans";
     width: 5%;
     padding: 1%;
+    border-radius: 5px;
     display: inline-block;
     transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
@@ -36,6 +36,11 @@ nav
 
 #navbtn-img
 {
+    margin-top: 0;
+    margin-left: 1%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
     vertical-align: middle;
     max-width: 5%;
     width: 5%;
