@@ -1,0 +1,71 @@
+#jumbotron
+{
+    width: 96%;
+    display: block;
+    padding: 2%;
+}
+
+body 
+{
+    margin: 0;
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+nav 
+{
+    background-color: rgb(10, 145, 104);
+    padding: 1%;
+}
+
+.navbtn-nodropdown 
+{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "Fira Sans";
+    width: 10%;
+    padding: 1%;
+    display: inline-block;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#jumbotron-img 
+{
+    max-width: 20%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: block;
+}
+
+.navbtn-nodropdown:hover
+{
+    background: white;
+    color: rgb(10, 145, 104);
+}
+
+@font-face 
+{
+    font-family: "Fira Sans";
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype'), url('../fonts/FiraSans-Regular.eot'), url('../fonts/FiraSans.svg') format('svg'), url('../fonts/FiraSans.woff') format('woff');
+}
+
+#jumbotron h1 
+{
+    font-family: "Fira Sans";
+    font-size: 400%;
+    text-align: center;
+    color: rgb(10, 145, 104);
+}
+
+#jumbotron h2 
+{
+    font-family: "Fira Sans";
+    font-size: 200%;
+    text-align: center;
+    color: rgb(10, 145, 104);
+}
