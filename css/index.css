@@ -15,6 +15,9 @@ body
 
 nav 
 {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
     background-color: rgb(204, 139, 0);
 }
 
@@ -25,7 +28,7 @@ nav
     color: white;
     text-decoration: none;
     font-family: "Fira Sans";
-    width: 5%;
+    width: 100px;
     padding: 1%;
     border-radius: 5px;
     display: inline-block;
@@ -71,8 +74,8 @@ nav
 
 #homebtn 
 {
-    width: 5%;
-    margin-right: 60%;
+	width: 100px;
+	margin-right: 20%;
 }
 
 #jumbotron h2
