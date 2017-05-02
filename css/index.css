@@ -15,7 +15,7 @@ body
 
 nav 
 {
-    background-color: rgb(10, 145, 104);
+    background-color: rgb(204, 139, 0);
 }
 
 .navbtn-nodropdown 
@@ -58,7 +58,7 @@ nav
 .navbtn-nodropdown:hover
 {
     background: white;
-    color: rgb(10, 145, 104);
+    color: rgb(204, 139, 0);
 }
 
 #jumbotron h1 
