@@ -1,16 +1,17 @@
 #jumbotron
 {
+	height: 900px;
     width: 96%;
     display: block;
     padding: 2%;
+    background-image: url('../images/bckgrnd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body 
 {
     margin: 0;
-    background-image: url('../images/bckgrnd.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 nav 
@@ -75,7 +76,7 @@ nav
 #homebtn 
 {
 	width: 100px;
-	margin-right: 20%;
+	margin-right: 40%;
 }
 
 #jumbotron h2
@@ -98,7 +99,6 @@ nav
 
 section
 {
-    margin-top: 20%;
     padding: 1%;
     width: 98%;
     display: block;
