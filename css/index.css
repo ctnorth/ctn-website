@@ -81,6 +81,7 @@ nav
     font-size: 200%;
     text-align: center;
     color: white;
+    font-weight: lighter;
 }
 
 .jumpdown-btn 
@@ -92,16 +93,20 @@ nav
     display: block;
 }
 
-section 
+section
 {
     margin-top: 20%;
-    background: rgb(51, 51, 51);
     padding: 1%;
     width: 98%;
     display: block;
 }
 
-p 
+#section1
+{
+    background: rgb(51, 51, 51);
+}
+
+#section1 p 
 {
     margin-left: 25%;
     margin-right: 25%;
@@ -109,4 +114,26 @@ p
     color: white;
     font-family: "Fira Sans";
     font-weight: lighter;
+}
+
+hr
+{
+	width: 98%;
+	border: 1px solid rgb(70, 70, 71);
+}
+
+footer
+{
+	background: rgb(70, 70, 71);
+	padding: 1%;
+	width: 98%;
+	display: block;
+}
+
+footer p
+{
+	text-align: center;
+	color: white;
+	font-family: "Fira Sans";
+	font-weight: lighter;
 }
