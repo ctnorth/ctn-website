@@ -1,25 +1,23 @@
 #jumbotron
 {
-	height: 900px;
+	height: calc(100vh - 80px);
     width: 96%;
     display: block;
     padding: 2%;
-    background-image: url('../images/bckgrnd.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 body 
 {
     margin: 0;
+    background-image: url('../images/bckgrnd.jpg');
+    background-size: cover;
 }
 
 nav 
 {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	z-index: 1;
-    background-color: rgb(204, 139, 0);
 }
 
 .navbtn-nodropdown 
@@ -33,9 +31,9 @@ nav
     padding: 1%;
     border-radius: 5px;
     display: inline-block;
-    transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
 }
 
 #navbtn-img
@@ -61,8 +59,7 @@ nav
 
 .navbtn-nodropdown:hover
 {
-    background: white;
-    color: rgb(204, 139, 0);
+    font-size: 120%;
 }
 
 #jumbotron h1 
@@ -76,7 +73,7 @@ nav
 #homebtn 
 {
 	width: 100px;
-	margin-right: 40%;
+	margin-right: 50%;
 }
 
 #jumbotron h2
@@ -91,22 +88,62 @@ nav
 .jumpdown-btn 
 {
     text-decoration: none;
-    text-align: center;
     font-size: 300%;
     color: white;
-    display: block;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+}
+
+#downloadbtn
+{
+	display: block;
+	width: 100%;
+}
+
+#downloadbtn-inner
+{
+	width: 200px;
+	padding-top: 0.25%;
+	padding-bottom: 0.25%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+	transition-duration: 0.25s;
+	-webkit-transition-duration: 0.25s;
+	-o-transition-duration: 0.25s;
+}
+
+#downloadbtn-inner:hover
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+#downloadbtn-inner p
+{
+	padding: 0;
+	font-size: 150%;
+	font-family: "Fira Sans";
+	font-weight: lighter;
+}
+
+.jumpdown-btn:hover
+{
+	font-size: 350%;
 }
 
 section
 {
     padding: 1%;
     width: 98%;
+    background: rgba(0, 0, 0, 0.5);
     display: block;
-}
-
-#section1
-{
-    background: rgb(51, 51, 51);
 }
 
 #section1 p 
@@ -127,7 +164,7 @@ hr
 
 footer
 {
-	background: rgb(70, 70, 71);
+	background: rgb(0, 0, 0);
 	padding: 1%;
 	width: 98%;
 	display: block;
